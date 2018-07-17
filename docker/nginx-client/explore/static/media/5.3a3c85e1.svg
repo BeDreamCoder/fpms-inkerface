@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 29</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1057.000000, -277.000000)">
+        <g id="Group-8" transform="translate(170.000000, 252.000000)" stroke="#FFFFFF">
+            <g id="Stats-Block-#1-Copy-3" transform="translate(848.000000, 1.000000)">
+                <g id="Base">
+                    <g id="Group-29" transform="translate(40.000000, 25.000000)">
+                        <circle id="Oval" cx="30" cy="30" r="30"></circle>
+                        <g id="Group-11" transform="translate(16.000000, 17.000000)" stroke-width="2">
+                            <g id="Group-6">
+                                <path d="M0,19.8837209 L1.95348837,19.8837209" id="Path-7" stroke-linecap="round"></path>
+                                <path d="M4.40826926,6.86046512 L0.816772109,10.3528361 C0.420821889,10.7378581 0.41196274,11.3709611 0.796984646,11.7669113 C0.985261254,11.9605319 1.24384741,12.0697674 1.51391594,12.0697674 L7.76744186,12.0697674" id="Path-5" stroke-linecap="round"></path>
+                                <path d="M11.8941792,19.8837209 L7.47959639,24.0139527 C7.07629963,24.3912724 7.05524106,25.024087 7.43256076,25.4273838 C7.62164465,25.6294854 7.88603113,25.744186 8.16279416,25.744186 L24.8598447,25.744186" id="Path-5-Copy" stroke-linecap="round" transform="translate(16.011318, 22.813953) scale(-1, -1) translate(-16.011318, -22.813953) "></path>
+                                <circle id="Oval-6" cx="20.5116279" cy="7.48837209" r="7.48837209"></circle>
+                                <path d="M20.1860465,4.47674419 L20.1860465,6.81395349 C20.1860465,7.36623824 20.6337618,7.81395349 21.1860465,7.81395349 L24,7.81395349" id="Path-6" stroke-linecap="round"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

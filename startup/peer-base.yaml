@@ -1,0 +1,39 @@
+# Copyright INK Labs. All Rights Reserved.
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+version: '2'
+services:
+  peer-base:
+    image: inklabsfoundation/inkchain-peer
+    environment:
+      - CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+      # the following setting starts chaincode containers on the same
+      # bridge network as the peers
+      # https://docs.docker.com/compose/networking/
+      - CORE_VM_DOCKER_HOSTCONFIG_NETWORKMODE=${COMPOSE_PROJECT_NAME}_default
+      - CORE_LOGGING_LEVEL=DEBUG
+      - CORE_PEER_GOSSIP_USELEADERELECTION=true
+      - CORE_PEER_GOSSIP_ORGLEADER=false
+      # The following setting skips the gossip handshake since we are
+      # are not doing mutual TLS
+      - CORE_PEER_GOSSIP_SKIPHANDSHAKE=true
+      - CORE_PEER_MSPCONFIGPATH=/etc/inkchain/crypto/peer/msp
+      - CORE_PEER_TLS_ENABLED=true
+      - CORE_PEER_TLS_KEY_FILE=/etc/inkchain/crypto/peer/tls/server.key
+      - CORE_PEER_TLS_CERT_FILE=/etc/inkchain/crypto/peer/tls/server.crt
+      - CORE_PEER_TLS_ROOTCERT_FILE=/etc/inkchain/crypto/peer/tls/ca.crt
+      # configuration of cross chain
+      - CORE_PEER_SUPPORTTOKEN=INK
+      - CORE_PEER_TOKENADDRESS_INK=i4230a12f5b0693dd88bb35c79d7e56a68614b199
+      - CORE_PEER_CROSSCHAINMANAGER=i4230a12f5b0693dd88bb35c79d7e56a68614b199
+      - CORE_PEER_CHAINNAME=INK
+      - CORE_PEER_ETH_CONTRACTS_INK_ADDRESS=0xa8f388355e796bf927c4b89a942ac88d1caadfda
+      - CORE_PEER_ETH_CONTRACTS_INK_VERSION=1
+      - CORE_PEER_QTUM_CONTRACTS_INK_ADDRESS=67aa6b26e5d40dd12dfb2039dc37274bfb09cb54
+      - CORE_PEER_QTUM_CONTRACTS_INK_VERSION=1
+    working_dir: /opt/gopath/src/github.com/inklabsfoundation/inkchain/peer
+    command: peer node start
+    volumes:
+        - /var/run/:/host/var/run/

@@ -1,0 +1,11 @@
+
+version: '2'
+
+services:
+  inkerface-client:
+    container_name: inkerface-client
+    image: inklabsfoundation/inkerface-nginxcli:x86_64-0.1.15
+    ports:
+      - 80:80
+    volumes:
+      - ../docker/nginx-client/explore.conf:/etc/nginx/conf.d/explore.conf

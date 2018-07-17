@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="198px" viewBox="0 0 1440 198" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>底部</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="区块详情查看" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, -1245.000000)" opacity="0.100000001">
+        <g id="底部" transform="translate(0.000000, 1245.000000)" fill="#D5E7FD">
+            <g id="Group-30">
+                <path d="M3.25643028e-13,27.2602988 C206.513847,-12.543059 400.22636,-8.75810258 581.137539,38.6151681 C852.504307,109.675074 1111.78404,119.126139 1271.22681,93.0615181 C1377.52198,75.6851044 1442.11305,66.9968975 1465,66.9968975 L1465,198 L0,198 L3.25643028e-13,27.2602988 Z" id="Path-9"></path>
+                <path d="M1662,57.4415591 L1662,198 L0,198 L6.3618695e-13,90.1540116 C25.964586,90.1540116 99.241275,97.3064243 219.830067,111.61125 C400.713255,133.068488 694.858595,125.288066 1002.71632,66.7892546 C1207.9548,27.7900469 1427.71603,24.6741484 1662,57.4415591 Z" id="Path-9"></path>
+            </g>
+        </g>
+    </g>
+</svg>

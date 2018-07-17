@@ -1,0 +1,45 @@
+{
+  "host": "localhost",
+  "port": "8081",
+  "jwt_expiretime": "36000",
+  "CC_SRC_PATH": "../../../config/artifacts",
+  "keyValueStore": "/tmp/inkchain-client-kvs",
+  "eventWaitTime": "30000",
+  "admins": [
+    {
+      "username": "admin",
+      "secret": "adminpw"
+    }
+  ],
+  "channelName": "mychannel",
+  "addressPrefix": "i",
+  "maxTxNum": 10,
+  "peerName": "peer1",
+  "userName": "user2",
+  "orgName": "org1",
+  "dbHost": "172.17.101.188",
+  "dbUserName": "root",
+  "dbPassword": "zhigui",
+  "dbPort": "3306",
+  "dbName": "explore",
+  "crossPeers": [
+    {
+      "org": "org1",
+      "peers": [
+        "peer1"
+      ]
+    },
+    {
+      "org": "org2",
+      "peers": [
+        "peer1"
+      ]
+    }
+  ],
+  "crossToken": "INK",
+  "qtumUrl": "http://39.105.21.136:3001/qtum-insight-api/contracts/67aa6b26e5d40dd12dfb2039dc37274bfb09cb54/hash/e228ecb4/call",
+  "ethUrl": "http://39.107.236.62:18547/",
+  "eth_xc_contract_address": "0xa8f388355e796bf927c4b89a942ac88d1caadfda",
+  "qtum_address_transfer": "http://39.105.21.136:9001/rpc/getHexAddress",
+  "tokenTotalSupply": 1000000000000000000
+}

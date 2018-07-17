@@ -1,0 +1,18 @@
+#
+# Copyright INK Labs. All Rights Reserved.
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+version: '2'
+
+services:
+  inkerface-server.org1:
+    container_name: inkerface-server-org1
+    image: inklabsfoundation/inkerface-server:x86_64-0.17.1
+    ports:
+      - 8081:8081
+    volumes:
+      - ../config/artifacts:/work/config/artifacts
+      - ../config/network-config.json:/work/config/network-config.json
+      - ../config/inkchain-client-kvs_peerOrg1:/tmp/inkchain-client-kvs_peerOrg1
+      - ../config/config.json:/work/config/config.json

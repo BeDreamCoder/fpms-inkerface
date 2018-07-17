@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="252px" height="110px" viewBox="0 0 252 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 9 + Path 9 Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="252" height="110" rx="4"></rect>
+    </defs>
+    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-453.000000, -253.000000)">
+        <g id="Group-8" transform="translate(170.000000, 252.000000)">
+            <g id="Stats-Block-#1-Copy" transform="translate(283.000000, 1.000000)">
+                <g id="Base">
+                    <g id="Path-9-+-Path-9-Mask">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#BC8DEE" xlink:href="#path-1"></use>
+                        <path d="M-2,67.7167051 C34.0485321,53.5291317 67.8624958,54.8782477 99.4418911,71.7640531 C146.810984,97.0927612 192.070196,100.461514 219.902119,91.1709984 C238.456734,84.9773213 249.731586,81.8804828 253.726675,81.8804828 L253.726675,128.575441 L-2,128.575441 L-2,67.7167051 Z" id="Path-9" fill="#FFFFFF" opacity="0.0599999987" mask="url(#mask-2)"></path>
+                        <path d="M-18,82.6085573 C23.8666298,72.9592584 63.1380403,73.8768236 99.8142315,85.3612529 C154.828518,102.587897 207.392397,104.879064 239.716288,98.560368 C261.265548,94.3479041 274.360119,92.2416721 279,92.2416721 L279,124 L-18,124 L-18,82.6085573 Z" id="Path-9" fill="#FFFFFF" opacity="0.0599999987" mask="url(#mask-2)" transform="translate(130.500000, 100.000000) scale(-1, 1) translate(-130.500000, -100.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

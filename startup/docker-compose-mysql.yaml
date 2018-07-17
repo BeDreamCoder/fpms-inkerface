@@ -1,0 +1,16 @@
+
+version: '2'
+
+services:
+  inkerface-mysql:
+    container_name: inkerface-mysql
+    image: inklabsfoundation/inkerface-mysql:x86_64-0.14.1
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=zhigui
+    ports:
+      - 3306:3306
+    volumes:
+      - /tmp/data/mysql/:/var/lib/mysql
+      - ../docker/inkerface-mysql/explore.sql:/usr/local/work/explore.sql
+      - ../docker/inkerface-mysql/init_peer.sql:/usr/local/work/init_peer.sql
