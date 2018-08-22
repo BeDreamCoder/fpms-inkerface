@@ -357,7 +357,7 @@ var invokeChaincodePersist = function (peerNames, channelName, chaincodeName, fc
                 proposalResponses[0].response.status, proposalResponses[0].response.message,
                 proposalResponses[0].response.payload, proposalResponses[0].endorsement
                     .signature));
-                payload =  proposalResponses[0].response.payload;
+                payload =  proposalResponses[0].response.payload.toString();
 		var tx_request = {
                 proposalResponses: proposalResponses,
                 proposal: proposal
@@ -415,7 +415,7 @@ var invokeChaincodePersist = function (peerNames, channelName, chaincodeName, fc
                 let response = results[0];
                 if (response.status === 'SUCCESS') {
                     logger.info(util.format('Successfully handler \'%s\' transaction', payload));
-                    return JSON.parse(payload);
+                    return {txId:tx_id_str, payload:payload};
                 } else {
                     let message = util.format('Failed to order the transaction, Error code:', response.status);
                     logger.error(message);
